@@ -1,0 +1,53 @@
+nav {
+  background-color: #1e1e1e;
+}
+
+.navbar-toggler:focus {
+  box-shadow: #ffffff 0px 0px 0px 3px;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+}
+
+.nav-link:not(:focus) {
+  color: #797373; /* Change this to the color you want */
+}
+
+.nav-link {
+  padding-left: 0.5rem;
+  color: #797373;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-link:focus {
+  color: white;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-align: center;
+  width: 130px;
+  height: 35px;
+}
+
+/* Styles pour les écrans desktop */
+
+@media (min-width: 1025px) {
+}
+
+/* Styles pour les écrans de tablette */
+@media (min-width: 480px) {
+}
