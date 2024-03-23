@@ -45,7 +45,7 @@ function Main() {
               <h2 className="title2">Mes compétences</h2>
               <span>html5 90%</span>
               <div
-                class="progress"
+                className="progress"
                 role="progressbar"
                 aria-label="Success example"
                 aria-valuenow="90"
@@ -53,13 +53,13 @@ function Main() {
                 aria-valuemax="100"
               >
                 <div
-                  class="progress-bar bg-danger"
+                  className="progress-bar bg-danger"
                   style={{ width: "90%" }}
                 ></div>
               </div>
               <span>css3 80%</span>
               <div
-                class="progress"
+                className="progress"
                 role="progressbar"
                 aria-label="Info example"
                 aria-valuenow="80"
@@ -67,13 +67,13 @@ function Main() {
                 aria-valuemax="100"
               >
                 <div
-                  class="progress-bar bg-info"
+                  className="progress-bar bg-info"
                   style={{ width: "80%" }}
                 ></div>
               </div>
               <span>javascript 70%</span>
               <div
-                class="progress"
+                className="progress"
                 role="progressbar"
                 aria-label="Warning example"
                 aria-valuenow="70"
@@ -81,14 +81,14 @@ function Main() {
                 aria-valuemax="100"
               >
                 <div
-                  class="progress-bar bg-warning"
+                  className="progress-bar bg-warning"
                   style={{ width: "70%" }}
                 ></div>
               </div>
 
               <span>php 60%</span>
               <div
-                class="progress"
+                className="progress"
                 role="progressbar"
                 aria-label="Danger example"
                 aria-valuenow="60"
@@ -96,13 +96,13 @@ function Main() {
                 aria-valuemax="100"
               >
                 <div
-                  class="progress-bar bg-success"
+                  className="progress-bar bg-success"
                   style={{ width: "60%" }}
                 ></div>
               </div>
               <span>react 50%</span>
               <div
-                class="progress"
+                className="progress"
                 role="progressbar"
                 aria-label="Danger example"
                 aria-valuenow="50"
@@ -110,7 +110,7 @@ function Main() {
                 aria-valuemax="100"
               >
                 <div
-                  class="progress-bar bg-primary"
+                  className="progress-bar bg-primary"
                   style={{ width: "50%" }}
                 ></div>
               </div>

@@ -1,0 +1,102 @@
+.container {
+  background-color: #eee;
+}
+
+.name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#mg_bottom_0 {
+  margin-bottom: 0;
+  line-height: 10px;
+}
+
+.box-address {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+i {
+  font-size: 32px;
+}
+
+.socialIcon {
+  letter-spacing: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-g {
+  padding-left: 20px;
+}
+
+.link-social {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.link-social i {
+  font-size: 18px;
+  padding-right: 5px;
+}
+
+.link-social a {
+  font-size: 18px;
+}
+
+.lastReal {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.link-lastReal {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.link-lastReal i {
+  font-size: 18px;
+  padding-right: 5px;
+}
+
+.link-lastReal a {
+  font-size: 18px;
+}
+
+.lastArticle {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.link-article {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.link-article i {
+  font-size: 18px;
+  padding-right: 5px;
+}
+
+.link-article a {
+  font-size: 18px;
+}
+
+.copyright {
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  background-color: #1e1e1e;
+}
