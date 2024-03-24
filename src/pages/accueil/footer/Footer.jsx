@@ -4,8 +4,8 @@ function Footer() {
   return (
     <footer>
       <div className="container">
-        <div className="row-4">
-          <div className="col box-address">
+        <div className="row">
+          <div className="col-12 col-md-6 col-lg-4 box-address">
             <address id="mg_bottom_0">
               <p className="name">John Doe</p>
               <p>40 Rue Laure Diebold</p>
@@ -45,7 +45,7 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="col link-g">
+          <div className="col-12 col-md-6 col-lg-3 link-g">
             <h3>Lien utiles</h3>
             <div className="link-social">
               <i
@@ -83,7 +83,7 @@ function Footer() {
               <a href="/">Mentions légales</a>
             </div>
           </div>
-          <div className="col lastReal">
+          <div className="col-12 col-md-6 col-lg-4 lastReal">
             <h3>Mes dernières réalisations</h3>
             <div className="link-lastReal">
               <i
@@ -107,7 +107,7 @@ function Footer() {
               <a href="/">Espace bien-être</a>
             </div>
           </div>
-          <div className="col lastArticle">
+          <div className="col-12 col-md-6 col-lg-2 lastArticle">
             <h3>Mes derniers articles</h3>
             <div className="link-article">
               <i
