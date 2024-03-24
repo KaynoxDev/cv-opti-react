@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg">
-      <div className="container-fluid">
-        <Link className="navbar-brand" href="/">
+      <div className="container-fluid  mx-4">
+        <Link className="navbar-brand" to="/">
           John Doe
         </Link>
         <button
@@ -22,27 +22,27 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav  ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" href="/">
+              <Link className="nav-link" to="/">
                 Accueil
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/">
+              <Link className="nav-link" to="/">
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/">
+              <Link className="nav-link" to="/">
                 Réalisations
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link " href="/">
+              <Link className="nav-link " to="/">
                 Blog
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link " href="/">
+              <Link className="nav-link " to="/">
                 Me contacter
               </Link>
             </li>

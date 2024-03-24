@@ -2,94 +2,60 @@ footer {
   background-color: #eee;
 }
 
-.name {
-  font-size: 1.3rem;
-  font-weight: bold;
-  padding-bottom: 10px;
+/* Addresse */
+
+.address h3 {
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
 }
 
-#mg_bottom_0 {
-  margin-bottom: 0;
-  line-height: 10px;
+.address address p {
+  font-size: 0.8rem;
+  line-height: 0;
 }
 
-.box-address {
-  padding-top: 40px;
-  padding-left: 20px;
-}
+/* Liens utiles */
 
-i {
-  font-size: 32px;
-}
-
-.socialIcon {
-  letter-spacing: 20px;
+.socialIcon i {
+  letter-spacing: 10px;
+  font-size: 1.2rem;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-}
-
-.link-g {
-  padding-left: 20px;
-}
-
-.link-social {
-  display: flex;
-  align-items: center;
+  font-size: 0.8rem;
   padding-left: 10px;
 }
 
-.link-social i {
-  font-size: 18px;
-  padding-right: 5px;
+i {
+  letter-spacing: 5px;
+  font-size: 0.8rem;
 }
 
-.link-social a {
-  font-size: 18px;
+.linkGood {
+  display: flex;
+  flex-direction: column;
 }
 
-.lastReal {
+/* Mes réalisations */
+
+.linkreal {
+  display: flex;
+  flex-direction: column;
   padding-top: 10px;
-  padding-left: 20px;
 }
 
-.link-lastReal {
+/* Mes derniers articles */
+
+.linkArtcl {
   display: flex;
-  align-items: center;
-  padding-left: 10px;
-}
-
-.link-lastReal i {
-  font-size: 18px;
-  padding-right: 5px;
-}
-
-.link-lastReal a {
-  font-size: 18px;
-}
-
-.lastArticle {
+  flex-direction: column;
   padding-top: 10px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
-.link-article {
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-}
-
-.link-article i {
-  font-size: 18px;
-  padding-right: 5px;
-}
-
-.link-article a {
-  font-size: 18px;
-}
+/* Copyright */
 
 .copyright {
   font-weight: bold;
@@ -103,32 +69,70 @@ a {
 
 /* Styles pour les écrans desktop */
 
-@media (min-width: 1025px) {
-  .box-address {
-    font-size: 0.5rem;
+@media (min-width: 992px) {
+  .box-footer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
   }
 
-  .col-lg-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .box-footer h3 {
+    font-size: 0.8rem;
+  }
+
+  .linkreal {
+    padding-bottom: 17px;
+  }
+
+  .linkArtcl {
+    padding-top: 40px;
   }
 }
 
 /* Styles pour les écrans de tablette */
 @media (min-width: 480px) {
-  .lastArticle {
-    padding-top: 40px;
-    padding-bottom: 30px;
+  /* Addresse */
+
+  .address h3 {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
   }
 
-  .link-g {
+  .address address p {
+    font-size: 0.7rem;
+    line-height: 0;
+  }
+
+  /* Liens utiles */
+
+  .socialIcon i {
+    letter-spacing: 10px;
+    font-size: 1.2rem;
+  }
+
+  a {
+    font-size: 0.7rem;
+  }
+
+  i {
+    letter-spacing: 5px;
+    font-size: 0.7rem;
+  }
+
+  .linkGood {
     padding-top: 30px;
   }
 
-  .col-md-6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  /* Copyright */
+
+  .copyright {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1e1e1e;
   }
 }

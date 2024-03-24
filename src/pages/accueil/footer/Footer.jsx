@@ -1,135 +1,139 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 function Footer() {
+  // var backToTopButton = document.getElementById("back-to-top");
+
+  // window.onscroll = function () {
+  //   if (
+  //     document.body.scrollTop > 20 ||
+  //     document.documentElement.scrollTop > 20
+  //   ) {
+  //     backToTopButton.style.display = "block";
+  //   } else {
+  //     backToTopButton.style.display = "none";
+  //   }
+  // };
+
+  // backToTopButton.onClick = function () {
+  //   document.body.scrollTop = 0;
+  //   document.documentElement.scrollTop = 0;
+  // };
+
   return (
     <footer>
       <div className="container">
-        <div className="row">
-          <div className="col-12 col-md-6 col-lg-4 box-address">
-            <address id="mg_bottom_0">
-              <p className="name">John Doe</p>
+        <div className="row box-footer">
+          <div className="col-12 col-md-6 col-lg-3 address">
+            <h3>John Doe</h3>
+            <address>
               <p>40 Rue Laure Diebold</p>
               <p>69009 Lyon, France</p>
               <p>Téléphone: 06 20 30 40 50</p>
             </address>
             <div className="socialIcon">
-              <a
-                href="https://github.com/johndoe"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+              <Link to={"/"}>
+                <i class="fa-brands fa-github" style={{ color: "#000000" }}></i>
+              </Link>
+              <Link to={"/"}>
                 <i
-                  className="fa-brands fa-github"
+                  class="fa-brands fa-x-twitter"
                   style={{ color: "#000000" }}
                 ></i>
-              </a>
-              <a
-                href="https://twitter.com/johndoe"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+              </Link>
+              <Link to={"/"}>
                 <i
-                  className="fa-brands fa-x-twitter"
+                  class="fa-brands fa-linkedin"
                   style={{ color: "#000000" }}
                 ></i>
-              </a>
-              <a
-                href="https://linkedin.com/in/johndoe"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <i
-                  className="fa-brands fa-linkedin"
-                  style={{ color: "#000000" }}
-                ></i>
-              </a>
+              </Link>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-lg-3 link-g">
-            <h3>Lien utiles</h3>
-            <div className="link-social">
+          <div className="col-12 col-md-6 col-lg-3 linkGood">
+            <h3>Liens utiles</h3>
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">Accueil</a>
-            </div>
-            <div className="link-social">
+              Accueil
+            </Link>
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">A propos</a>
-            </div>
-            <div className="link-social">
+              À propos
+            </Link>
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">Services</a>
-            </div>
-            <div className="link-social">
+              Services
+            </Link>
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">Me contacter</a>
-            </div>
-            <div className="link-social">
+              Me contacter
+            </Link>
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">Mentions légales</a>
-            </div>
+              Mentions légales
+            </Link>
           </div>
-          <div className="col-12 col-md-6 col-lg-4 lastReal">
-            <h3>Mes dernières réalisations</h3>
-            <div className="link-lastReal">
+          <div className="col-12 col-md-6 col-lg-3 linkreal">
+            <h3>Mes réalisations</h3>
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">Fresh Food</a>
-            </div>
-            <div className="link-lastReal">
+              Fresh Food
+            </Link>
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">Restaurant Akira</a>
-            </div>
-            <div className="link-lastReal">
+              Restaurant akira
+            </Link>
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">Espace bien-être</a>
-            </div>
+              Espace bien-être
+            </Link>
           </div>
-          <div className="col-12 col-md-6 col-lg-2 lastArticle">
+          <div className="col-12 col-md-6 col-lg-3 linkArtcl">
             <h3>Mes derniers articles</h3>
-            <div className="link-article">
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">Coder son site en HTML/CSS</a>
-            </div>
-            <div className="link-article">
+              Coder son site en HTML/CSS
+            </Link>
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">Vendre ses produits sur le web</a>
-            </div>
-            <div className="link-article">
+              Vendre ses produits sur le web
+            </Link>
+            <Link>
               <i
                 class="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
-              <a href="/">Se positionner sur google</a>
-            </div>
+              Se positionner sur google
+            </Link>
           </div>
         </div>
       </div>
