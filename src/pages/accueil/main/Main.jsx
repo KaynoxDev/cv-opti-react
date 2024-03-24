@@ -16,8 +16,8 @@ function Main() {
 
       <section className="apropos">
         <div className="container-fluid box-about">
-          <div className="row-col-2">
-            <article className="col">
+          <div className="row row-about">
+            <article className="col-12 col-md-6">
               <h2 className="title">À propos</h2>
               <p>
                 Passionné par l'informatique et les nouvelles technologies, j'ai
@@ -37,7 +37,7 @@ function Main() {
                 j'écris et je respecte les bonnes pratiques du web.
               </p>
             </article>
-            <article className="col">
+            <article className="col-12 col-md-6">
               <img
                 src="../../../images/john-doe-about.jpg"
                 alt="john doe devant un ordinateur"
