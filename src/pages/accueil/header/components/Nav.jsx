@@ -45,7 +45,7 @@ function Nav() {
                 location.pathname === "/realisations" ? "active" : ""
               }`}
             >
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/realisations">
                 Réalisations
               </Link>
             </li>
