@@ -13,35 +13,35 @@ function Main() {
             <h2>Mon offre de services</h2>
             <p>Voici les prestations sur lesquelles je peux intervenir.</p>
           </div>
-          <div className="row box-offer">
-            <div className="col-12 col-md-4 service1">
-              <i class="fa-solid fa-display" style={{ color: "#0d6efd " }}></i>
+          <section className="row box-offer">
+            <article className="col-12 col-md-4 col-lg-4 service1">
+              <i className="fa-solid fa-display iconOffer"></i>
               <h2>ux design</h2>
               <p>
                 L'<strong>UX Design</strong> est une méthode de conception
                 centrée sur l'utilisateur.Son but est d'offrir une expérience de
                 navigation optimal à l'internaute.
               </p>
-            </div>
-            <div className="col-12 col-md-4 service2">
-              <i class="fa-solid fa-display" style={{ color: "#0d6efd " }}></i>
-              <h2>ux design</h2>
+            </article>
+            <article className="col-12 col-md-4 col-lg-4 service2">
+              <i className="fa-solid fa-file-code iconOffer"></i>
+              <h2>développement web</h2>
               <p>
-                L'<strong>UX Design</strong> est une méthode de conception
-                centrée sur l'utilisateur.Son but est d'offrir une expérience de
-                navigation optimal à l'internaute.
+                Le <strong>developpement web</strong> repose sur l'utilisation
+                des langages HTML, CSS, JavaScript et PHP.
               </p>
-            </div>
-            <div className="col-12 col-md-4 service3">
-              <i class="fa-solid fa-display" style={{ color: "#0d6efd " }}></i>
-              <h2>ux design</h2>
+            </article>
+            <article className="col-12 col-md-4 col-lg-4 service3">
+              <i className="fa-solid fa-magnifying-glass-dollar iconOffer"></i>
+              <h2>référencement</h2>
               <p>
-                L'<strong>UX Design</strong> est une méthode de conception
-                centrée sur l'utilisateur.Son but est d'offrir une expérience de
-                navigation optimal à l'internaute.
+                Le <strong>référencement naturel d'un site</strong>, aussi
+                appelé SEO, consiste à mettre des techniques en oeuvre pour
+                améliorer sa position dans les résultats des moteurs de
+                recherche.
               </p>
-            </div>
-          </div>
+            </article>
+          </section>
         </div>
       </div>
     </main>
