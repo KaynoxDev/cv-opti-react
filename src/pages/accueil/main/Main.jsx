@@ -41,6 +41,7 @@ function Main() {
               <img
                 src="../../../images/john-doe-about.jpg"
                 alt="john doe devant un ordinateur"
+                className="img-about"
               />
               <h2 className="title2">Mes compétences</h2>
               <span>html5 90%</span>
