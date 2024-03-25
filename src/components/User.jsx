@@ -18,7 +18,7 @@ function UserGithub() {
         <h1> Github Users</h1>
         <div className="container">
           {data.name}
-          <img src={data.avatar_url} alt="image d'un lapin bleu" />
+          <img src={data.avatar_url} alt="un lapin bleu" />
           {data.bio}
           {data.followers}
           {data.following}

@@ -8,13 +8,15 @@ function Main() {
         <div className="filter">
           <h1>Bonjour, je suis John Doe</h1>
           <h2>Développeur web full stack</h2>
-          <button type="button" className="btn btn-primary">
-            En savoir plus
-          </button>
+          <a className="navbar-brand" href="#apropos">
+            <button type="button" className="btn btn-primary">
+              En savoir plus
+            </button>
+          </a>
         </div>
       </div>
 
-      <section className="apropos">
+      <section id="apropos" className="apropos">
         <div className="container-fluid box-about">
           <div className="row row-about">
             <article className="col-12 col-md-6">

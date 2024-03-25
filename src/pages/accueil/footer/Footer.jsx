@@ -32,18 +32,21 @@ function Footer() {
               <p>Téléphone: 06 20 30 40 50</p>
             </address>
             <div className="socialIcon">
-              <Link to={"/"}>
-                <i class="fa-brands fa-github" style={{ color: "#000000" }}></i>
-              </Link>
-              <Link to={"/"}>
+              <Link to={"https://github.com/github-john-doe"}>
                 <i
-                  class="fa-brands fa-x-twitter"
+                  className="fa-brands fa-github"
                   style={{ color: "#000000" }}
                 ></i>
               </Link>
-              <Link to={"/"}>
+              <Link to={"https://twitter.com/twitter-john-doe"}>
                 <i
-                  class="fa-brands fa-linkedin"
+                  className="fa-brands fa-x-twitter"
+                  style={{ color: "#000000" }}
+                ></i>
+              </Link>
+              <Link to={"https://www.linkedin.com/in/linkedin-john-doe"}>
+                <i
+                  className="fa-brands fa-linkedin"
                   style={{ color: "#000000" }}
                 ></i>
               </Link>
@@ -53,35 +56,35 @@ function Footer() {
             <h3>Liens utiles</h3>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Accueil
             </Link>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               À propos
             </Link>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Services
             </Link>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Me contacter
             </Link>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Mentions légales
@@ -91,21 +94,21 @@ function Footer() {
             <h3>Mes réalisations</h3>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Fresh Food
             </Link>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Restaurant akira
             </Link>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Espace bien-être
@@ -115,21 +118,21 @@ function Footer() {
             <h3>Mes derniers articles</h3>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Coder son site en HTML/CSS
             </Link>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Vendre ses produits sur le web
             </Link>
             <Link>
               <i
-                class="fa-solid fa-chevron-right"
+                className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Se positionner sur google
