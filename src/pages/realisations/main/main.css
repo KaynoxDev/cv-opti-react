@@ -28,7 +28,7 @@
   margin-bottom: 20px;
 }
 
-.card-body {
+.real {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,12 +37,12 @@
   padding-bottom: 10px;
 }
 
-.card-body p {
+.real p {
   margin-bottom: 0;
   font-size: 0.8rem;
 }
 
-.card-body h5 {
+.real h5 {
   font-weight: 600;
 }
 

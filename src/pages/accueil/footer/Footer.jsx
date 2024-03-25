@@ -54,21 +54,21 @@ function Footer() {
           </div>
           <div className="col-12 col-md-6 col-lg-3 linkGood">
             <h3>Liens utiles</h3>
-            <Link>
+            <Link to={"/"}>
               <i
                 className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Accueil
             </Link>
-            <Link>
+            <a href={"#apropos"}>
               <i
                 className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               À propos
-            </Link>
-            <Link>
+            </a>
+            <Link to={"/services"}>
               <i
                 className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}

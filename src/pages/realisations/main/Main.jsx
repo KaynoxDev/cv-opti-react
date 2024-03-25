@@ -21,7 +21,7 @@ function Main() {
                 className="card-img-top"
                 alt="nourriture fraîches"
               />
-              <div className="card-body">
+              <div className="card-body real">
                 <h5 className="card-title">Fresh food</h5>
                 <p className="card-text">
                   Réalisation d'un site avec commande en ligne.
@@ -40,7 +40,7 @@ function Main() {
                 className="card-img-top"
                 alt="nourriture japonaise"
               />
-              <div className="card-body">
+              <div className="card-body real">
                 <h5 className="card-title">Restaurant akira</h5>
                 <p className="card-text">Réalisation d'un site vitrine.</p>
                 <Link to="#" className="btn btn-outline-primary">
@@ -57,7 +57,7 @@ function Main() {
                 className="card-img-top"
                 alt="coucher de soleil avec sculture boudhiste "
               />
-              <div className="card-body">
+              <div className="card-body real">
                 <h5 className="card-title">Espace bien-être</h5>
                 <p className="card-text">
                   Réalisation d'un site vitrine pour un practicien de bien-être.

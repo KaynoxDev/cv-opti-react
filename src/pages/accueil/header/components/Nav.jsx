@@ -54,7 +54,7 @@ function Nav() {
                 location.pathname === "/blog" ? "active" : ""
               }`}
             >
-              <Link className="nav-link " to="/">
+              <Link className="nav-link " to="/blog">
                 Blog
               </Link>
             </li>
@@ -63,7 +63,7 @@ function Nav() {
                 location.pathname === "/contact" ? "active" : ""
               }`}
             >
-              <Link className="nav-link " to="/">
+              <Link className="nav-link " to="/contact">
                 Me contacter
               </Link>
             </li>
