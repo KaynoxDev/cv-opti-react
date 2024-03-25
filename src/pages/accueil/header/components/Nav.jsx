@@ -1,10 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Nav() {
+  const location = useLocation();
   return (
     <nav className="navbar navbar-expand-lg">
-      <div className="container-fluid  mx-4">
+      <div className="container-fluid navmarge">
         <Link className="navbar-brand" to="/">
           John Doe
         </Link>
@@ -21,27 +22,47 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav  ms-auto">
-            <li className="nav-item">
+            <li
+              className={`nav-item ${
+                location.pathname === "/" ? "active" : ""
+              }`}
+            >
               <Link className="nav-link" to="/">
                 Accueil
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/">
+            <li
+              className={`nav-item ${
+                location.pathname === "/services" ? "active" : ""
+              }`}
+            >
+              <Link className="nav-link" to="/services">
                 Services
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className={`nav-item ${
+                location.pathname === "/realisations" ? "active" : ""
+              }`}
+            >
               <Link className="nav-link" to="/">
                 Réalisations
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className={`nav-item ${
+                location.pathname === "/blog" ? "active" : ""
+              }`}
+            >
               <Link className="nav-link " to="/">
                 Blog
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className={`nav-item ${
+                location.pathname === "/contact" ? "active" : ""
+              }`}
+            >
               <Link className="nav-link " to="/">
                 Me contacter
               </Link>
