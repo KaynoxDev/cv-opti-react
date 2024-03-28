@@ -77,7 +77,7 @@ function Main() {
                 <i
                   className="fa-solid fa-mobile-screen"
                   style={{ color: "black" }}
-                ></i>{" "}
+                ></i>
                 06 20 30 40 50
               </p>
             </address>

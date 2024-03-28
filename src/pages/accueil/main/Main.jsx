@@ -4,6 +4,7 @@ import "./main.css";
 function Main() {
   return (
     <main>
+      <div id="top-anchor"></div>
       <div className="fond">
         <div className="filter">
           <h1>Bonjour, je suis John Doe</h1>
