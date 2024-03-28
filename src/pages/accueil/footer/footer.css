@@ -67,28 +67,6 @@ i {
   background-color: #1e1e1e;
 }
 
-/* Styles pour les écrans desktop */
-
-@media (min-width: 992px) {
-  .box-footer {
-    display: flex;
-    align-items: center;
-    padding-bottom: 30px;
-  }
-
-  .box-footer h3 {
-    font-size: 0.8rem;
-  }
-
-  .linkreal {
-    padding-bottom: 17px;
-  }
-
-  .linkArtcl {
-    padding-top: 40px;
-  }
-}
-
 /* Styles pour les écrans de tablette */
 @media (min-width: 480px) {
   /* Addresse */
@@ -106,7 +84,7 @@ i {
   /* Liens utiles */
 
   .socialIcon i {
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     font-size: 1.2rem;
   }
 
@@ -134,5 +112,31 @@ i {
     text-align: center;
     color: white;
     background-color: #1e1e1e;
+  }
+}
+
+/* Styles pour les écrans desktop */
+
+@media (min-width: 992px) {
+  .box-footer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .address {
+    width: 20%;
+  }
+
+  .box-footer h3 {
+    font-size: 0.8rem;
+  }
+
+  .linkreal {
+    padding-bottom: 17px;
+  }
+
+  .linkArtcl {
+    padding-top: 40px;
   }
 }

@@ -2,24 +2,6 @@ import React from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
 function Footer() {
-  // var backToTopButton = document.getElementById("back-to-top");
-
-  // window.onscroll = function () {
-  //   if (
-  //     document.body.scrollTop > 20 ||
-  //     document.documentElement.scrollTop > 20
-  //   ) {
-  //     backToTopButton.style.display = "block";
-  //   } else {
-  //     backToTopButton.style.display = "none";
-  //   }
-  // };
-
-  // backToTopButton.onClick = function () {
-  //   document.body.scrollTop = 0;
-  //   document.documentElement.scrollTop = 0;
-  // };
-
   return (
     <footer>
       <div className="container">
@@ -75,7 +57,7 @@ function Footer() {
               ></i>
               Services
             </Link>
-            <Link>
+            <Link to={"/contact"}>
               <i
                 className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
@@ -92,21 +74,21 @@ function Footer() {
           </div>
           <div className="col-12 col-md-6 col-lg-3 linkreal">
             <h3>Mes réalisations</h3>
-            <Link>
+            <Link to={"/realisations"}>
               <i
                 className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Fresh Food
             </Link>
-            <Link>
+            <Link to={"/realisations"}>
               <i
                 className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Restaurant akira
             </Link>
-            <Link>
+            <Link to={"/realisations"}>
               <i
                 className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
@@ -116,21 +98,21 @@ function Footer() {
           </div>
           <div className="col-12 col-md-6 col-lg-3 linkArtcl">
             <h3>Mes derniers articles</h3>
-            <Link>
+            <Link to={"/blog"}>
               <i
                 className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Coder son site en HTML/CSS
             </Link>
-            <Link>
+            <Link to={"/blog"}>
               <i
                 className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}
               ></i>
               Vendre ses produits sur le web
             </Link>
-            <Link>
+            <Link to={"/blog"}>
               <i
                 className="fa-solid fa-chevron-right"
                 style={{ color: "#0d6efd " }}

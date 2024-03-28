@@ -12,7 +12,7 @@ function Main() {
               collaboration, merci de remplir le formulaire de contact.
             </p>
           </section>
-          <section className="col-12 formContact">
+          <section className="col-12 col-md-6 formContact">
             <h2 className="titleForm">Formulaire de contact</h2>
             <form className="form1">
               <div className="mb-3">
@@ -21,7 +21,7 @@ function Main() {
                   className="form-control"
                   id="name"
                   placeholder="Votre nom"
-                  required="true"
+                  required={true}
                 />
               </div>
               <div className="mb-3">
@@ -30,7 +30,7 @@ function Main() {
                   className="form-control"
                   id="email"
                   placeholder="Votre adresse email"
-                  required="true"
+                  required={true}
                 />
               </div>
               <div className="mb-3">
@@ -39,7 +39,7 @@ function Main() {
                   className="form-control"
                   id="phone"
                   placeholder="Votre numéro de téléphone"
-                  required="true"
+                  required={true}
                 />
               </div>
               <div className="mb-3">
@@ -48,7 +48,7 @@ function Main() {
                   className="form-control"
                   id="subject"
                   placeholder="Sujet"
-                  required="true"
+                  required={true}
                 />
               </div>
               <div className="mb-3">
@@ -57,7 +57,7 @@ function Main() {
                   id="message"
                   rows="3"
                   placeholder="Votre message"
-                  required="true"
+                  required={true}
                 ></textarea>
               </div>
               <button type="submit" className="btn btn-primary btnForm">
@@ -65,17 +65,17 @@ function Main() {
               </button>
             </form>
           </section>
-          <div className="col-12 box-Coord">
+          <div className="col-12 col-md-6 box-Coord">
             <h2 className="titleCoord">Mes coordonnées</h2>
-            <address className="address">
+            <address className="addresss">
               <i
-                class="fa-solid fa-location-dot"
+                className="fa-solid fa-location-dot"
                 style={{ color: "black" }}
               ></i>
               40 Rue Laure Diebold, 69009 Lyon, France
               <p>
                 <i
-                  class="fa-solid fa-mobile-screen"
+                  className="fa-solid fa-mobile-screen"
                   style={{ color: "black" }}
                 ></i>{" "}
                 06 20 30 40 50
@@ -86,9 +86,9 @@ function Main() {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6271524621757!2d4.796403976016823!3d45.77866197108088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1711636961588!5m2!1sfr!2sfr"
               title="Location addresse"
               style={{ border: "0" }}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>

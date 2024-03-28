@@ -5,7 +5,7 @@ import Services from "./pages/services/Services";
 import Realisations from "./pages/realisations/Realisations";
 import Blog from "./pages/blog/Blog";
 import Contact from "./pages/contact/Contact";
-
+// import User from "./components/User";
 function App() {
   return (
     <div className="App">
@@ -15,6 +15,7 @@ function App() {
         <Route path="/realisations" element={<Realisations />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/User" element={<User />} /> */}
       </Routes>
     </div>
   );
