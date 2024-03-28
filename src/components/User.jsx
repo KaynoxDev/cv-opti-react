@@ -6,11 +6,12 @@ function UserGithub() {
   useEffect(() => {
     fetch(`https://api.github.com/users/github-john-doe`)
       .then((response) => response.json())
-      .then(setData)
+      .then((data) => {
+        setData(data);
+        console.log(data.name);
+      })
       .catch(console.error);
   }, []);
-
-  console.log(data);
 
   if (data) {
     return (
