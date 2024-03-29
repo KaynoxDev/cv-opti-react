@@ -8,7 +8,7 @@ import Blog from "./pages/blog/Blog";
 import Contact from "./pages/contact/Contact";
 import Mentions from "./pages/mentions/Mentions";
 import ScrollTop from "./components/ScrollTop";
-// import User from "./components/User";
+import UserGithub from "./components/UserGithub";
 function App() {
   return (
     <HelmetProvider>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/mentions" element={<Mentions />} />
-          {/* <Route path="/User" element={<User />} /> */}
+          <Route path="/User" element={<UserGithub />} />
         </Routes>
         <ScrollTop />
       </div>

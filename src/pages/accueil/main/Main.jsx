@@ -2,6 +2,10 @@ import React from "react";
 import "./main.css";
 
 function Main() {
+  const scrollToApropos = () => {
+    const element = document.getElementById("apropos");
+    element.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <main>
       <div id="top-anchor"></div>
@@ -9,15 +13,18 @@ function Main() {
         <div className="filter">
           <h1>Bonjour, je suis John Doe</h1>
           <h2>Développeur web full stack</h2>
-          <a className="navbar-brand" href="#apropos">
-            <button type="button" className="btn btn-primary">
-              En savoir plus
-            </button>
-          </a>
+
+          <button
+            type="button"
+            className="btn btn-primary btnAbout"
+            onClick={scrollToApropos}
+          >
+            En savoir plus
+          </button>
         </div>
       </div>
 
-      <section id="apropos" className="apropos">
+      <div id="apropos" className="apropos">
         <div className="container-fluid box-about">
           <div className="row row-about">
             <article className="col-12 col-md-6">
@@ -121,7 +128,7 @@ function Main() {
             </article>
           </div>
         </div>
-      </section>
+      </div>
     </main>
   );
 }
